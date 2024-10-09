@@ -1,7 +1,7 @@
 const twilio = require('twilio');
 
-const accountSid = 'AC0f3fce6bfbd4f1c19b93d56715e34973'; 
-const authToken = '4264bd41825739dbf0c159e48374d44a';  
+// const accountSid = 'AC0f3fce6bfbd4f1c19b93d56715e34973'; 
+// const authToken = '4264bd41825739dbf0c159e48374d44a';  
 const client = twilio(accountSid, authToken);
 
 const sendSms = async (mobile, message) => {
